@@ -40,6 +40,8 @@ header nav{
 }
 
 
+
+
 header nav .nav2 ul{
     display: flex;
     /* justify-content: space-between; */
@@ -101,10 +103,18 @@ header{
 
 .hi{
     /* border: medium solid black; */
+    height: 100px;
+    /* position: fixed; */
+
 }
 
 .he{
     /* border: medium solid black; */
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+    position: fixed;
+    margin-bottom: 20px;
 }
 
 .nav1{
