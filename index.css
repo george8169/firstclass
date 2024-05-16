@@ -126,6 +126,12 @@ header{
         margin-left: 50px;
     }
 
+    .logo-ralph-and-wordmark {
+        height: 2.5rem;
+        width: 10rem;
+    }
+
+
 .application-header__mobile-icon {
     fill: #3d3e44;
     transition: fill 200ms ease;
