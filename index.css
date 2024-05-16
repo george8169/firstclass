@@ -5,14 +5,6 @@
 }
 
 
-/* nav{
-    display: flex;
-    width: 85%;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2em;
-    margin: auto;
-} */
 
 header nav .nav2 ul a:hover{
     text-decoration: underline;
@@ -21,12 +13,9 @@ header nav .nav2 ul a:hover{
 
 img{
     width: 170px;
-    /* margin-right: 100px; */
-    /* position: relative; */
-    /* right: 40px; */
-
-
 }
+
+
 .application-header__search-button {
     height: 1.5rem;
     width: 1.5rem;
@@ -43,30 +32,12 @@ img{
 }
 
 
-
-
-/* ul, ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} */
-
 header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto;
 }
-
-/* .application-nav__row {
-    display: flex;
-    flex-direction: column;
-    gap: 1.7rem;
-    height: 100vh;
-    text-align: left;
-     padding-inline: 1.5rem; 
-} */
-
 
 
 header nav .nav2 ul{
@@ -75,8 +46,6 @@ header nav .nav2 ul{
     /* align-items: center; */
     gap: 1.5em;
     list-style-type: none;
-    
-    
 }
 
 header nav .nav2 ul a{
@@ -84,52 +53,40 @@ header nav .nav2 ul a{
     color: black;
 
 }
-/* .header1{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-} */
+
 
 header{
     background-color: #FFFFFF;
-    /* background-attachment: scroll; */
-    /* position: initial; */
     margin-top: 30px;
 }
 
-/* .button11{
-    .header-button--small {
-        padding: 0.5rem 1rem;
-        font-size: var(--font-size-base);
-    } */
-    
-    .button11 {
-        appearance: none;
-        background-color: #E03131;
-        border-radius: 100rem;
-        border: none;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-        font-size: 15px;
-        font-weight: 500;
-        height: auto;
-        line-height: 1;
-        padding: 1rem 1.75rem;
-        text-decoration: none;
-        transition: background-color 200ms ease;
-        user-select: none;
-        vertical-align: baseline;
-        white-space: nowrap;
-        width: auto;
-        margin-left: 50px;
-    }
+.button11 {
+    appearance: none;
+    background-color: #E03131;
+    border-radius: 100rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: auto;
+    line-height: 1;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    transition: background-color 200ms ease;
+    user-select: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+    margin-left: 50px;
+}
 
-    .logo-ralph-and-wordmark {
-        height: 2.5rem;
-        width: 10rem;
-    }
+.logo-ralph-and-wordmark {
+    height: 2.5rem;
+    width: 10rem;
+}
 
 
 .application-header__mobile-icon {
@@ -156,7 +113,6 @@ header{
 .nav2{
     /* border: medium solid black; */
     margin: auto;
-    /* align-items: center; */
 }
 
 .searchh{
@@ -171,39 +127,35 @@ header{
         display: none;
     }
 
- .application-header__mobile-icon {
-    fill: #3d3e44;
-    transition: fill 200ms ease;
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    gap: 2em;
-}
+    .application-header__mobile-icon {
+        fill: #3d3e44;
+        transition: fill 200ms ease;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        gap: 2em;
+    }
 
-.he{
-    gap: 1em;
-}
+    .he{
+        gap: 1em;
+    }
 
-.button11{
-    display: none;
-}
+    .button11{
+        display: none;
+    }
 
 
- .application-header__search-button {
-    height: 2.5rem;
-    width: 2.5rem;
-    /* color: var(--color-text); */
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    background: #f0f0f8;
-    border-radius: 9999px;
-    border: 1px solid var(--color-border);
-    padding-left: 0;
-    place-content: center;
-    position: relative;
-    left: 350px;
-}
+    .application-header__search-button {
+        height: 2.5rem;
+        width: 2.5rem;
+        cursor: pointer;
+        align-items: center;
+        background: #f0f0f8;
+        border-radius: 9999px;
+        border: 1px solid var(--color-border);
+        padding-left: 0;
+        place-content: center;
+    }
 
 }
 
@@ -242,8 +194,6 @@ header{
 }
 
 .button1{
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     background-color: #E03131;
     border-radius: 100rem;
@@ -259,13 +209,16 @@ header{
     padding: 1rem 1.5rem;
     text-decoration: none;
     transition: background-color 200ms ease;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    vertical-align: baseline;
+    vertical-align: baseline; 
     white-space: nowrap;
     width: auto;
 }
+
+/* .button1:hover{
+    color: #fff;
+    background: #fff;
+    border: 10px #babaed;
+} */
 
 /* media query */
 
@@ -307,7 +260,6 @@ header{
 }
 
 .column2{
-  /* justify-content: end; */
     width: 415px;
     padding-top: 100px;
     text-align: start;
